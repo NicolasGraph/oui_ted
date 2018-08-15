@@ -6,3 +6,4 @@ oui_player_ted_prefs => Afficher les préférences du lecteur Ted
 oui_player_ted_width => Largeur du lecteur
 oui_player_ted_height => Hauteur du lecteur
 oui_player_ted_ratio => Ratio utilisé en l'absence de l'une des dimensions
+oui_player_ted_responsive => Rendre les lecteurs adaptatifs à partir des dimensions fournies

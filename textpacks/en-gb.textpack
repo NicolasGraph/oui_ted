@@ -6,3 +6,4 @@ oui_player_ted_prefs => Display the Ted player preferences
 oui_player_ted_width => Player width
 oui_player_ted_height => Player height
 oui_player_ted_ratio => Player ratio by default
+oui_player_ted_responsive => Render responsive players from the provided dimensions

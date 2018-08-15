@@ -38,11 +38,14 @@ if (class_exists('Oui\Provider')) {
         protected static $srcBase = '//embed.ted.com/';
         protected static $srcGlue = array('talks/', '/', '/');
         protected static $iniDims = array(
-            'width'  => '854',
-            'height' => '',
-            'ratio'  => '16:9',
+            'width'      => '854',
+            'height'     => '',
+            'ratio'      => '16:9',
+            'responsive' => array(
+                'default' => 'false',
+                'valid'   => array('true', 'false'),
+            ),
         );
-
         protected static $mediaPatterns = array(
             'scheme' => '#^https?://(www.|embed.)?ted\.com/talks/([^\?]+)#i',
             'id'     => '2',
