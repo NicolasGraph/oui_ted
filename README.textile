@@ -1,5 +1,11 @@
 h1. oui_ted
 
+* "Introduction":#introduction
+* "Plugin management":#plugin-management
+* "Tags and parameters":#tags-and-parameters
+* "Examples":"#examples"
+* "Credits":#credits
+
 h2. Introduction
 
 "oui_ted":https://github.com/NicolasGraph/oui_ted is a "oui_player":https://github.com/NicolasGraph/oui_player v2+ extension to easily embed "Ted":https://ted.go.com/ provided videos in "Textpattern":https://textpattern.com/ powered websites.
@@ -46,7 +52,7 @@ h4. Via Composer (not available yet)
 
 bc. $ composer update nicolasgraph/oui_ted
 
-h3. Uninstall
+h3. Deletion
 
 h4. From the admin interface
 
