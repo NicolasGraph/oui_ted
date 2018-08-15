@@ -3,7 +3,7 @@ h1. oui_ted
 * "Introduction":#introduction
 * "Plugin management":#plugin-management
 * "Tags and parameters":#tags-and-parameters
-* "Examples":"#examples"
+* "Examples":"#examples
 * "Credits":#credits
 
 h2. Introduction
