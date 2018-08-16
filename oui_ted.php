@@ -42,7 +42,7 @@ if (class_exists('Oui\Provider')) {
             'height'     => '',
             'ratio'      => '16:9',
             'responsive' => array(
-                'default' => 'false',
+                'default' => 'true',
                 'valid'   => array('true', 'false'),
             ),
         );
