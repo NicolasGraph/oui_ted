@@ -107,6 +107,7 @@ Wraps the player and adds some styles. =:
 h5. Parameters (a→z)
 
 There is no player parameter available for this provider.
+Subtitles support is on the _TODO_ list.
 
 h3. oui_if_ted vs oui_if_player
 
