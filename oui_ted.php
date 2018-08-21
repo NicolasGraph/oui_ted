@@ -33,9 +33,9 @@ namespace Oui;
 
 if (class_exists('Oui\Player\Provider')) {
 
-    class Ted extends Player\Oembed
+    class Ted extends Player\OEmbed
     {
-        protected static $endPoint = 'http://www.ted.com/talks/oembed.json?url=';
+        protected static $endPoint = 'http://www.ted.com/talks/oembed.json';
         protected static $URLBase = 'http://www.ted.com/talks/';
 
         protected static $srcBase = '//embed.ted.com/';
