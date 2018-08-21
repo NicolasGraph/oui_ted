@@ -8,7 +8,7 @@ h1. oui_ted
 
 h2. Introduction
 
-"oui_ted":https://github.com/NicolasGraph/oui_ted is a "oui_player":https://github.com/NicolasGraph/oui_player v2+ extension to easily embed "Ted":https://ted.go.com/ provided videos in "Textpattern":https://textpattern.com/ powered websites.
+"oui_ted":https://github.com/NicolasGraph/oui_ted is a "oui_player":https://github.com/NicolasGraph/oui_player v2+ extension to easily embed "Ted":https://www.ted.com/ provided videos in "Textpattern":https://textpattern.com/ powered websites.
 
 The above platform serves cookies with its player, according to the EU legislation, you should warn your users about these cookies before they are added. This can be done by using "oui_cookie":https://github.com/NicolasGraph/oui_cookie.
 
