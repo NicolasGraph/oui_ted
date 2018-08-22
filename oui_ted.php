@@ -39,7 +39,7 @@ if (class_exists('Oui\Player\OEmbed')) {
         protected static $URLBase = 'http://www.ted.com/talks/';
 
         protected static $srcBase = '//embed.ted.com/';
-        protected static $srcGlue = array('talks/', '/', '/');
+        protected static $srcGlue = array('talks', '/', '/');
         protected static $iniDims = array(
             'width'      => '854',
             'height'     => '',
@@ -49,9 +49,43 @@ if (class_exists('Oui\Player\OEmbed')) {
                 'valid'   => array('true', 'false'),
             ),
         );
+        protected static $iniParams = array(
+            'lang' => '',
+        );
         protected static $mediaPatterns = array(
             'scheme' => '#^https?://(www.|embed.)?ted\.com/talks/([^\?]+)#i',
             'id'     => '2',
         );
+
+        /**
+         * Build the player src value.
+         *
+         * @return string
+         */
+
+        protected function getSrc()
+        {
+            $media = $this->getMedia();
+
+            if (!$media) {
+                trigger_error('Nothing to play');
+                return;
+            }
+
+            $media = $this->getMediaInfos(true)[$media]['uri'];
+            $srcGlue = self::getSrcGlue();
+            $src = self::getSrcBase() . $srcGlue[0]; // Stick player URL and ID.
+
+            // Stick defined player parameters.
+            $params = $this->getParams();
+
+            if (!empty($params)) {
+                foreach ($params as $param => $value) {
+                    $src .= $srcGlue[1] . $param . $srcGlue[1] . $value; // Stick.
+                }
+            }
+
+            return $src . $srcGlue[1] . $media;;
+        }
     }
 }

@@ -7,3 +7,4 @@ oui_player_ted_width => Largeur du lecteur
 oui_player_ted_height => Hauteur du lecteur
 oui_player_ted_ratio => Ratio utilisé en l'absence de l'une des dimensions
 oui_player_ted_responsive => Rendre les lecteurs adaptatifs à partir des dimensions fournies
+oui_player_ted_lang => Code ISO_639-1 du language des sous-titres
